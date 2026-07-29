@@ -204,6 +204,11 @@ The generated visualizations are available in the **Images** folder.
 ---
 
 # 📷 Project Outputs
+![Result No 1](./4.Images/Distribution%20of%20Ratings.png)
+![Result No 1](./4.Images/AVG%20Rating%20by%20Category.png)
+![Result No 1](./4.Images/Number%20of%20Category.png)
+![Result No 1](./4.Images/Top%2010%20Resturants.png)
+
 
 This repository includes:
 
