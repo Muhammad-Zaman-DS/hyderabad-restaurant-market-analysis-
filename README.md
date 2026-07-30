@@ -1,229 +1,95 @@
-# 🍽️ Hyderabad Restaurant Analysis
+# 🍽️ Hyderabad Restaurant Market Analysis
 
 ## 📌 Project Overview
 
-The **Hyderabad Restaurant Analysis** project is an end-to-end data analytics project that demonstrates the complete data analysis workflow using restaurant data collected from Google Maps. The project covers data collection, cleaning, SQL analysis, Python-based exploratory data analysis (EDA), and data visualization.
+This project analyzes restaurant data collected from Google Maps in Hyderabad, Pakistan. The objective was to perform an end-to-end data analytics workflow including data cleaning, SQL analysis, exploratory data analysis (EDA), and interactive dashboard development using Power BI.
+
+The project demonstrates practical skills in data collection, data preprocessing, SQL querying, Python analysis, and business intelligence reporting.
 
 ---
 
-# 🎯 Objectives
+## 🎯 Objectives
 
-* Extract restaurant data from Google Maps.
-* Clean and prepare the dataset using Microsoft Excel.
-* Analyze the dataset using SQL queries.
-* Perform exploratory data analysis using Python.
-* Generate visual insights using Matplotlib.
-* Build a structured dataset suitable for business intelligence and reporting.
+- Analyze restaurant ratings and customer reviews.
+- Identify the most popular restaurant categories.
+- Explore relationships between ratings and customer engagement.
+- Build an interactive dashboard for business insights.
 
 ---
 
-# 🛠️ Tools & Technologies
+## 🛠 Tools & Technologies
 
-* Microsoft Excel
-* MySQL
-* Python
-* Pandas
-* NumPy
-* Matplotlib
-* Jupyter Notebook
-* Git & GitHub
-
----
-
-# 📂 Project Workflow
-
-```text
-Google Maps
-      │
-      ▼
-Data Collection
-      │
-      ▼
-Excel Data Cleaning
-      │
-      ▼
-MySQL Analysis
-      │
-      ▼
-Python (Pandas + NumPy)
-      │
-      ▼
-Data Visualization (Matplotlib)
-```
+- Microsoft Excel
+- MySQL
+- Python
+  - Pandas
+  - NumPy
+  - Matplotlib
+- Power BI
+- Git & GitHub
 
 ---
 
-# 📁 Repository Structure
+## 📊 Dashboard Features
 
-```text
-Dataset/
-│
-└── hyderabad_restaurants_raw.xlsx
+### Executive KPIs
 
-Excel/
-│
-├── cleaned_restaurants.xlsx
-├── data_understanding.md
-└── data_quality_assessment.md
+- Total Restaurants
+- Average Rating
+- Minimum vs Maximum Price
 
-SQL/
-│
-├── cleaned_restaurants.csv
-├── restaurant_analysis.sql
-└── sql_analysis.md
+### Visualizations
 
-Python/
-│
-├── cleaned_restaurants_final.csv
-├── restaurant_analysis.ipynb
-└── python_analysis.md
-
-Images/
-│
-├── category_distribution.png
-├── rating_distribution.png
-├── top10_reviews.png
-└── average_rating_by_category.png
-
-README.md
-```
+- Restaurants by Category
+- Relationship Between Ratings and Reviews
+- Top Rated Restaurant Categories
 
 ---
 
-# 📊 Dataset
+## 📈 Key Insights
 
-The original dataset was extracted from **Google Maps** and contains restaurant information from Hyderabad, Pakistan.
-
-### Dataset Features
-
-* Restaurant ID
-* Google Maps URL
-* Restaurant Name
-* Rating
-* Number of Reviews
-* Price Range
-* Category
-* Address
-* Restaurant Status
-* Opening Hours
+- Analyzed data from **119 restaurants** across Hyderabad.
+- Most restaurants maintain customer ratings above **4.0**, indicating generally positive customer satisfaction.
+- Categories such as Social Clubs and Paan Shops achieved the highest average ratings.
+- Restaurants with higher customer reviews generally maintain stronger ratings, indicating a positive relationship between popularity and customer satisfaction.
 
 ---
 
-# 📑 Excel Data Cleaning
+## 📂 Project Workflow
 
-The raw dataset was cleaned using Microsoft Excel before analysis.
-
-The cleaning process included:
-
-* Removing unnecessary columns
-* Renaming column headers
-* Removing extra spaces
-* Standardizing the dataset structure
-* Handling missing values
-* Formatting numerical values
-* Preparing the dataset for SQL import
-
-Supporting documentation:
-
-* `data_understanding.md`
-* `data_quality_assessment.md`
+1. Data Collection
+2. Data Cleaning using Excel
+3. SQL Analysis using MySQL
+4. Exploratory Data Analysis (Python)
+5. Interactive Dashboard Development (Power BI)
 
 ---
 
-# 🗄️ SQL Analysis
+## 📸 Dashboard Preview
 
-The cleaned dataset was imported into MySQL for analysis.
-
-SQL operations performed include:
-
-* Database creation
-* Table management
-* Data filtering
-* Sorting records
-* DISTINCT queries
-* LIMIT queries
-* GROUP BY
-* Aggregate Functions
-* HAVING clause
-* CASE statements
-* NULL value checking
+[![Hyderabad Restaurant Dashboard](4.Images/Dashboard-1.png)](Dashboard.pdf)
 
 ---
 
-# 🐍 Python Analysis
+## 🚀 Skills Demonstrated
 
-Python was used to perform exploratory data analysis (EDA) on the cleaned dataset.
-
-### Libraries Used
-
-* Pandas
-* NumPy
-* Matplotlib
-
-### Analysis Performed
-
-* Dataset exploration
-* Descriptive statistics
-* Missing value inspection
-* Sorting by Rating
-* Sorting by Reviews
-* Popularity classification using NumPy
-* Grouping and aggregation
-* Dataset export
+- Data Cleaning
+- Data Analysis
+- SQL Queries
+- Exploratory Data Analysis
+- Data Visualization
+- Dashboard Development
+- Business Intelligence
+- Power BI
+- Microsoft Excel
+- Python
 
 ---
 
-# 📈 Data Visualizations
+## 👨‍💻 Author
 
-The following charts were created using Matplotlib:
+Muhammad Zaman
 
-* Number of Restaurants by Category
-* Distribution of Restaurant Ratings
-* Top 10 Restaurants by Reviews
-* Average Rating by Category
+LinkedIn:[(Muhammad Zaman)](https://www.linkedin.com/in/muhammad-zaman-ds2k24/)
 
-The generated visualizations are available in the **Images** folder.
-
----
-
-# 💡 Skills Demonstrated
-
-* Data Collection
-* Data Cleaning
-* Data Preparation
-* Microsoft Excel
-* SQL
-* Database Querying
-* Python Programming
-* Pandas
-* NumPy
-* Exploratory Data Analysis (EDA)
-* Data Visualization
-* Git & GitHub Documentation
-
----
-
-# 📷 Project Outputs
-![Result No 1](./4.Images/Distribution%20of%20Ratings.png)
-![Result No 1](./4.Images/AVG%20Rating%20by%20Category.png)
-![Result No 1](./4.Images/Number%20of%20Category.png)
-![Result No 1](./4.Images/Top%2010%20Resturants.png)
-
-
-This repository includes:
-
-* Cleaned dataset
-* SQL scripts
-* Python notebook
-* Project documentation
-* Data visualization images
-
----
-
-# 👨‍💻 Author
-
-**Muhammad Zaman**
-
-BS Data Science Student
-
-University of Sindh
+GitHub: [(Muhammad Zamam)](https://github.com/Muhammad-Zaman-DS)
